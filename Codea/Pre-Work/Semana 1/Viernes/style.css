@@ -1,0 +1,24 @@
+h1  {
+      color:blue;
+      font-size:35px;
+    }
+* {
+      text-align : center;
+      }
+      li
+      {
+        list-style-position: inside;
+      }
+  table
+  {
+    margin:0 auto;
+  }
+  .string{
+    font-family: Arial;
+    font-size: 4em;
+  }
+.computadoras{
+    font-family: Tahoma;
+    font-size: 30px;
+  }
+  
