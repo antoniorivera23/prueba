@@ -1,0 +1,9 @@
+p titulo='title'
+p descripcion='description'
+p number_of_likes=10
+p CONSTANT= 8
+p calle='street'
+p number=10
+p state="Hidalgo"
+p city='Mexico city'
+p zip=15210
