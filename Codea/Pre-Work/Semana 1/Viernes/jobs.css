@@ -1,0 +1,16 @@
+h1  {
+      color:black;
+      font-size:40px;
+    }
+*   {
+      text-align : center;
+    }
+ul
+    {
+       list-style-position: inside;
+    }
+
+  .string{
+    font-family: Tahoma;
+    font-size: 20px;
+  }
