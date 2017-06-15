@@ -1,6 +1,7 @@
 h1  {
-      color:black;
+      color:#F08080;
       font-size:40px;
+      padding-right:50%;
     }
 *   {
       text-align : center;
@@ -11,6 +12,12 @@ ul
     }
 
   .string{
+    font-family: Tahoma;
+    font-size: 20px;
+  } 
+  .frase{
+    font-weight: bold;
+    color:green;
     font-family: Tahoma;
     font-size: 20px;
   }
