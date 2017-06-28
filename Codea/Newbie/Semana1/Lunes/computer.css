@@ -1,0 +1,31 @@
+h1  {
+      margin: 20px 0 0 0;
+      color:#6433FF;
+      font-size:40px;
+      font-family: 'Satisfy', cursive;
+      font-weight: 50px;
+      font-variant: normal;
+      word-spacing: 6px;
+      text-transform: capitalize;
+
+    }
+*   {
+      text-align : center;
+      background-color: #E48915;
+    }
+ul
+    {
+       list-style-position: inside;
+    }
+
+  .string{
+    color:#013C8F;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-style: oblique;
+    text-indent: 5px;
+    font-variant: small-caps;
+    word-spacing: 6px;
+    text-decoration : underline; 
+  } 
+
