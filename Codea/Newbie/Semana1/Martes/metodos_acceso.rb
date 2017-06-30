@@ -1,30 +1,21 @@
 class Course 
-
+  attr_accessor :course_name
+  attr_reader :students
   def initialize(name)
     @course_name  = name
     @students   = []
   end
-
-  def course_name
-    @course_name
-  end
-
-  def course_name=(new_name)
-    @course_name = new_name
-  end
-
+#este no se modifica ya que es un metodo que recibe parametros y es un metodo independiente
   def add_student(student)
     @students << student
   end
 
-  def students
-    @students
-  end
 end
-
-
 class Student
-
+  #es accesor ya que son metodos de lectura y escritura
+  attr_accessor :name, :last_name, :campus
+  attr_reader :id 
+  #variable de la clase
   @@id = 0
 
   def initialize(name, last_name, campus)
@@ -33,38 +24,38 @@ class Student
     @campus = campus
     @id       = new_id
   end
-
+#este no se modifica ya que ocupa variables de clase y no de metodo 
   def new_id
     @@id += 1
   end
 
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
 
-  def name=(new_name)
-    @name = new_name
-  end
+  # def name=(new_name)
+  #   @name = new_name
+  # end
 
-  def last_name
-    @last_name
-  end
+  # def last_name
+  #   @last_name
+  # end
 
-  def last_name=(new_last_name)
-    @last_name = new_last_name
-  end
+  # def last_name=(new_last_name)
+  #   @last_name = new_last_name
+  # end
 
-  def campus
-    @campus
-  end
+  # def campus
+  #   @campus
+  # end
 
-  def campus=(new_campus)
-    @campus = new_campus
-  end
+  # def campus=(new_campus)
+  #   @campus = new_campus
+  # end
 
-  def id
-    @id
-  end
+  # def id
+  #   @id
+  # end
 
 end
 
