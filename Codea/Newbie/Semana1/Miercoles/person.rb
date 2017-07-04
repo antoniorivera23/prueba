@@ -13,8 +13,8 @@ class Person
     "#{@first_name} #{@last_name}"
   end
   def information
-     "Name: #{@first_name} #{@last_name}"
-    "Email: #{@email}"
+  p "Name: #{@first_name} #{@last_name}"
+  "Email: #{@email}"
   end
 end
 
