@@ -1,19 +1,15 @@
-#se crea la clase computer
 class Computer
-  #metodo de objeto para modificar o leer atributos
-  attr_accessor :color
-  #metodo initialize
-  def initialize (color)
-    #variable de instancia
-    @color=color
-    #fin de initialize
+  attr_reader :processor
+
+  def initialize (processor)
+  @processor = processor
   end
-  #fin de clase
 end
 
-mac=Computer.new("green")
-
+mac = Computer.new("Intel")
 #test
-mac.color = "Platinum"
-p mac.color
-#=>"Platinum"
+p mac.processor
+#=>"Intel"
+ mac.processor = "AMD"
+#=>...undefined method `processor='...
+
