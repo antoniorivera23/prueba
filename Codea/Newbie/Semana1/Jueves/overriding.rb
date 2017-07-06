@@ -5,18 +5,18 @@ class SuperSay
   end
 end
  #clase hija 
- class HtmlSay < SuperSay
+class HtmlSay < SuperSay
   def say(text)
-    "<p>" + prepare_text(text) + "</p>"
+    "<p>" + super + "</p>"
   end
 end
 #clase hija que hereda todos sus metodos
-class CssSay 
-  end
+class CssSay < SuperSay
+end
 #instancias
 doc = HtmlSay.new
 style = CssSay.new
 
 #test
-p doc.say("You've refactored") == "<p>You've refactored</p>"
-p style.say("I like to code") == "I like to code"
+p doc.say("You've refactored") #== "<p>You've refactored</p>"
+p style.say("I like to code") #== "I like to code"
