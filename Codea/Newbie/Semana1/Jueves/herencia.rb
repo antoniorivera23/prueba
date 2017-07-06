@@ -19,7 +19,7 @@ class Reptile < Animal
   end
 end
 
-class Bird < Mammal
+class Bird < Animal
   def fly 
     "puedo volar"
   end
