@@ -13,8 +13,8 @@ class Employee
 
   def to_s
   #elimina los guiones del string
-  d= @deposit_account.delete("-")
-  (0..d.lenght-5).each do |i|
+  d = @deposit_account.delete("-")
+  (0..d.length-5).each do |i|
     d[i] = "*"
   end
   "#{@name} < email: #{@email}, acct: #{d}"
