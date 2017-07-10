@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Introduccion Bootstrap</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+       <!-- Fila con 2 columnas -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1>MEXICO</h1>
+            <p>Amazing Places To Visit</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
+    </div>    
+    <div class="row">
+        <div class="col-md-2">
+          <img class="img" src="cancun.jpg">
+          <p>Cancun is a city in southeastern Mexico on the northeast coast of the Yucatán Peninsula in the Mexican state of Quintana Roo. It is an important tourist destination in Mexico.</p>
+        </div>
+        <div class="col-md-2">
+          <img class="img" src="kukulcán.jpg" >
+          <p>Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archaeological site is located in Tinúm Municipality, Yucatán State, Mexico.</p>
+        </div>
+        <div class="col-md-2">
+          <img class="img" src="mazatlan.jpg" >
+          <p>Mazatlan is a city in the Mexican state of Sinaloa. The city serves as the municipal seat for the surrounding municipio, known as the Mazatlán Municipality.</p>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h3>Comments</h3>             
+          <div class="row">
+            <div class="col-sm-1">
+              <div class="thumbnail">
+                <img class="img-responsive user-photo" src="maza.jpg">
+              </div><!-- /thumbnail -->
+            </div><!-- /col-sm-1 -->
+            <div class="col-sm-5">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <strong>my username 1</strong> 
+                  <span class="text-muted">Commented 5 days ago</span>
+                </div>
+                <div class="panel-body">
+                  Comments
+                </div><!-- /panel-body -->
+              </div><!-- /panel panel-default -->
+            </div><!-- /col-sm-5 -->
+          </div>
+          <div class="row">
+            <div class="col-sm-1">
+              <div class="thumbnail">
+                <img class="img-responsive user-photo" src="cancun.jpg">
+              </div><!-- /thumbnail -->
+            </div><!-- /col-sm-1 -->
+            <div class="col-sm-5">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <strong>my username 2</strong> 
+                  <span class="text-muted">Commented 5 days ago</span>
+                </div>
+                <div class="panel-body">
+                  Comments
+                </div><!-- /panel-body -->
+              </div><!-- /panel panel-default -->
+            </div><!-- /col-sm-5 -->
+          </div>
+      </div>
+      <div class="col-md-5">
+        <div class="panel panel-default">
+          <div class="panel-heading">Panel heading without title</div>
+            <div class="panel-body">
+              Panel content
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>  
+        <li role="presentation"><a href="#">More<span class="badge">16</span></a></li>
+</ul>
+        
+      </div>  
+    </div><!-- /row-->
+  </body>
+</html
+
+
