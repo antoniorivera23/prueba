@@ -17,7 +17,7 @@ class Employee
   (0..d.length-5).each do |i|
     d[i] = "*"
   end
-  "#{@name} < email: #{@email}, acct: #{d}"
+  "#{@name} <email: #{@email}> acct: #{d}"
 end
   def vacation_days
     coefficient * 7  
@@ -36,7 +36,7 @@ end
 
 employee = Employee.new('Juan Perez', 'juan@gmail.com', 1_800, '123-456-512')
 
-employee.to_s
+p employee.to_s
 # => "Juan Perez <email: juan@gmail.com> acct: *****6512"
 
 str = "The employee information is #{employee}"
@@ -45,8 +45,8 @@ puts str
 
 puts str == "The employee information is Juan Perez <email: juan@gmail.com> acct: *****6512"
 
-puts employee.vacation_days #== 8.4
-puts employee.bonus #== 1_200
+puts employee.vacation_days == 8.4
+puts employee.bonus == 1_200
 
 
 
